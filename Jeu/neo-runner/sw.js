@@ -1,5 +1,5 @@
-const CACHE = 'neon-runner-v1';
-const FILES = ['./neon_runner.html','./manifest.json'];
+const CACHE = 'neo-runner-v1';
+const FILES = ['./index.html','./manifest.json'];
 self.addEventListener('install', e => {
   e.waitUntil(caches.open(CACHE).then(c => c.addAll(FILES)));
   self.skipWaiting();
