@@ -1,5 +1,5 @@
-const CACHE = 'sequence-v1';
-const FILES = ['./index.html', './manifest.json'];
+const CACHE = 'sequence-v2';
+const FILES = ['./index.html', './manifest.json', './Icn.png'];
 
 self.addEventListener('install', e => {
   e.waitUntil(caches.open(CACHE).then(c => c.addAll(FILES)));
