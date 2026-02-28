@@ -2,7 +2,7 @@
   "name": "NEO RUNNER",
   "short_name": "NEO RUNNER",
   "description": "Jeu de plateforme cyberpunk",
-  "start_url": "./index.html",
+  "start_url": "./Jeu/neo-runner/index.html",
   "display": "standalone",
   "background_color": "#05070f",
   "theme_color": "#05070f",
