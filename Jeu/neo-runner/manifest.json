@@ -1,12 +1,12 @@
 {
-  "name": "NEON RUNNER",
-  "short_name": "NEON RUNNER",
+  "name": "NEO RUNNER",
+  "short_name": "NEO RUNNER",
   "description": "Jeu de plateforme cyberpunk",
-  "start_url": "./neon_runner.html",
+  "start_url": "./index.html",
   "display": "standalone",
   "background_color": "#05070f",
   "theme_color": "#05070f",
-  "orientation": "landscape",
+  "orientation": "any",
   "icons": [
     {
       "src": "nr_icon.svg",
