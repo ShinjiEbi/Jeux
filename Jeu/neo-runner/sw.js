@@ -1,4 +1,4 @@
-const CACHE = 'neo-runner-v1';
+const CACHE = 'neo-runner-v2';
 const FILES = ['./Jeu/neo-runner/index.html','./Jeu/neo-runner/manifest.json'];
 self.addEventListener('install', e => {
   e.waitUntil(caches.open(CACHE).then(c => c.addAll(FILES)));
